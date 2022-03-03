@@ -1,4 +1,4 @@
-# ![Meme Icon](frontend/public/favicon.ico) Meme Generator
+# ![Meme Icon](public/favicon.ico) Meme Generator
 
 Rebuild of a meme generator I build with the Scrimba React course to cement my learning.
 
