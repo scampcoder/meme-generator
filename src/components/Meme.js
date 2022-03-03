@@ -57,7 +57,7 @@ export default function Meme() {
                     onChange={handleChange}
                 />
                 <button 
-                    className="form-button"
+                    className="form-btn"
                     onClick={getMemeImage}
                 >
                     New meme image
