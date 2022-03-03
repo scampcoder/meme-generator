@@ -7,6 +7,18 @@ export default function Meme() {
         bottomText: '',
         randomImage: 'http://i.imgflip.com/1bij.jpg'
     })
+
+    //our api call will respond with an array of meme objects, so initialize with an empty array
+    const [allMemes, setAllMemes] = React.useState([])
+
+    //grab API data and set allMemes state to be the response
+    React.useEffect(() => {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(res => res.json())
+            .then(data => setAllMemes(data.data.memes))
+    }, [])
+
+    
     
     return (
         <main>
