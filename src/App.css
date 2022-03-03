@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #ec0565 1.18%, #d326a8 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header-img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header-title {
+  font-size: 45px;
+  margin-right: auto;
+}
